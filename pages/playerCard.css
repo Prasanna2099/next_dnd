@@ -1,0 +1,161 @@
+/* D:\CS Stuff\next_dnd\styles\playerCard.css */
+
+.navbar-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px; /* Rounded edges */
+  }
+  
+  .navbar-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd700; /* Change to the desired hover color */
+  }
+
+
+/* Navbar styles */
+.navbar {
+    padding: 20px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Main container styles */
+  .main-container {
+    background-image: url("/SU.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Split layout styles */
+  .split-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Set width to 100% to ensure the layout spans the entire width */
+  }
+  
+  /* Left half styles */
+  .left-half {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Right half styles */
+  .right-half {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* D:\CS Stuff\next_dnd\styles\playerCard.css */
+
+/* Left half styles */
+.left-half {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background color */
+    border: 2px solid #fff; /* White border */
+    padding: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure image doesn't overflow container */
+  }
+  
+/* D:\CS Stuff\next_dnd\styles\playerCard.css */
+/* D:\CS Stuff\next_dnd\styles\playerCard.css */
+
+/* Navbar styles */
+.navbar {
+  padding: 20px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Right half styles */
+.right-half {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background color */
+  border: 2px solid #fff; /* White border */
+  padding: 20px;
+  max-width: 400px; /* Adjust as needed */
+  text-align: center;
+}
+
+/* Button styles */
+.button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 10px; /* Rounded edges */
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffd700; /* Change to the desired hover color */
+}
